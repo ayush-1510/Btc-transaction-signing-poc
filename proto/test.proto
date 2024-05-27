@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package protocol;
+
+message test{
+    int64 expiration = 8;
+    int64 timestamp = 18;
+}
+message TransferContract {
+    string owner_address = 1;   // Address of the sender
+    string to_address = 2;      // Address of the receiver
+    int64 amount = 3;           // The amount of currency to transfer
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package protocol;
+
+message test{
+    int64 expiration = 8;
+    int64 timestamp = 18;
+}

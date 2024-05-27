@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cstdlib": "c",
+        "base58.h": "c",
+        "sha3.h": "c"
+    }
+}
